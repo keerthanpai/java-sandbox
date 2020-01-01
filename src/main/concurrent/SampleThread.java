@@ -27,7 +27,7 @@ public class SampleThread {
             threads.add(worker);
         }
 
-        int running = 0;
+        int running;
         do {
             running = 0;
             for (Thread thread : threads) {
